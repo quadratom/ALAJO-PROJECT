@@ -1,7 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://147.93.40.101:3332
-'
+const API_URL = 'http://147.93.40.101:3332'
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token')
