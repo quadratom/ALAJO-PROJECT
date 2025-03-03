@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+
+.ant-steps .ant-steps-item-process .ant-steps-item-icon{
+    background-color:#469F81 !important;
+    border-color:rgb(22, 255, 53) !important;
+
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+  background-color: green !important;
+  border-color: green !important;
+}
